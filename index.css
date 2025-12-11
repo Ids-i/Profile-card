@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  font-size: 14px;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.profile-container {
+  background-color: hsl(0, 0%, 12%);
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .profile-container {
+    width: 300px;
+    height: 500px;
+  }
+}
+
+.main-box {
+  margin: 10px;
+}
+
+.image-box {
+  text-align: center;
+}
+
+.image-box > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+header {
+  font-size: 25px;
+  margin-bottom: -15px;
+  color: white;
+}
+
+.image-box > p:first-of-type{
+  color: hsl(75, 94%, 57%);
+}
+
+.paragraph {
+  display: block;
+  padding: 13px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.paragraph:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+
+.paragraph:focus {
+  background-color: hsl(75, 94%, 57%);
+}
